@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: docker-monitor-cli
+Version: 0.1.0
+Summary: CLI tool to monitor and manage Docker containers on a host
+Author-email: Shubham Chandak <shubhamchandak963@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/shubham9875/DockerMonitor
+Project-URL: Bug Tracker, https://github.com/shubham9875/DockerMonitor/issues
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: docker
+
+# DockerMonitor
+
+DockerMonitor is a Python CLI tool to monitor Docker containers on a host. It can list containers, check if required containers are running, and optionally restart failed containers.
+
+## Installation

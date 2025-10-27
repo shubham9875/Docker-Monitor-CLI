@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docker-monitor-cli"
+version = "0.1.0"
+description = "CLI tool to monitor and manage Docker containers on a host"
+authors = [
+  { name = "Shubham Chandak", email = "shubhamchandak963@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["docker"]
+
+[project.urls]
+"Homepage" = "https://github.com/shubham9875/DockerMonitor"
+"Bug Tracker" = "https://github.com/shubham9875/DockerMonitor/issues"
+
+[project.scripts]
+docker-monitor = "docker_monitor.app:main"
